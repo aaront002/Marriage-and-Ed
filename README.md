@@ -1,1 +1,5 @@
-# Marriage-and-Ed
+# Computational Thinking for Governance Analytics Project
+## PUBPOL 542
+**By Aaron Tam**
+
+This repository shows the cleaning process performed on the fertility dataset of the PUBPOL 542 group project. The initial dataset was downloaded from the World Bank database and contains data on fertility rate, age at first marriage by gender, and expected years of school by gender from countries around the world. The file called *Fertility_Data_Cleaning_Pt1* shows the process of finding bad symbols, removing extra rows, and changing data types in Python. A *mared.pkl* and *mared.RDS* file are produced to continue with the second part of the cleaning. *Fertility_Data_Cleaning_Pt2* continues cleaning in Python by filtering the data only for 2010 fertility data to make the group project analysis easier. This dataset is also merged with continent data from Wikipedia, so that continent can be controlled for in our analysis. A *contmared.pkl* and *contmared.RDS* file are produced for the course's final group project where this dataset will be merged with internet and mortality data.
